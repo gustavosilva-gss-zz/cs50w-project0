@@ -1,0 +1,43 @@
+#welcomeTxt {
+    text-align: center;
+    margin-top: 3.5%;
+    margin-bottom: 3.5%;
+}
+
+#welcomeTxt::before {
+    content: "Welcome to Tolkien Universe";
+}
+
+body {
+    display: inline-grid;
+}
+
+#stack {
+    background-image: url("assets/mountain-logo.png");
+    background-position: bottom;
+    background-size: 35%;
+    background-repeat: no-repeat;
+}
+
+#centeredLogoMain {
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+#booksTableHeader::before {
+    content: "Middle-Earth books, by J.R.R. Tolkien";
+}
+
+@media (max-width: 550px) {
+    #welcomeTxt::before {
+        content: "Tolkien Universe";
+    }
+
+    #booksTableHeader::before {
+        content: "Middle-Earth books";
+    }
+
+    #stack {
+        background-size: 90%;
+    }
+}
