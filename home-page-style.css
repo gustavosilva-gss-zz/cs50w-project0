@@ -25,6 +25,10 @@ body {
   text-align: center;
 }
 
+#booksTableHeader, .table {
+  font-family: "Minion Pro Regular";
+}
+
 #booksTableHeader::before {
   content: "Middle-Earth books, by J.R.R. Tolkien";
 }

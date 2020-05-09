@@ -1,3 +1,5 @@
+@import "sass-variables";
+
 #welcomeTxt {
     text-align: center;
     margin-top: 3.5%;
@@ -22,6 +24,10 @@ body {
 #centeredLogoMain {
     margin-bottom: 10%;
     text-align: center;
+}
+
+#booksTableHeader, .table { 
+    font-family: $customFont;
 }
 
 #booksTableHeader::before {
