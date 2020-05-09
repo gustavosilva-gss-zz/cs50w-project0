@@ -32,8 +32,10 @@ h1 {
 }
 
 a {
-    
-    color: black;
+    @extend .customLink;
+
+    //if it isn't a link inside a list, change to black
+    color: rgb(77, 43, 228);
 }
 
 ul {

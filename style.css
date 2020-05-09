@@ -24,6 +24,15 @@ h1 {
   font-family: "Minion Pro Regular";
 }
 
+.customLink, a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+a {
+  color: #4d2be4;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -33,15 +42,12 @@ ul a {
   color: black;
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
-  display: inline-block;
 }
 
 ul a:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
   color: black;
-  display: inline-block;
-  text-decoration: none;
 }
 
 body {
